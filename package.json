@@ -1,0 +1,20 @@
+{
+  "name": "roblox-scripting-assistant-15-month-program",
+  "version": "1.0.0",
+  "description": "A Discord-based 15-month Roblox Luau scripting tutor with voice/text attendance, persistent SQLite progress, quizzes, and optional AI tutoring.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "openai": "^4.85.4"
+  }
+}
